@@ -1,0 +1,56 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+  border-bottom: 1px solid beige;
+  padding: 10px 15px;
+  margin: 30px 0;
+  gap: 12px;
+}
+
+.btn-remove,
+.btn-edit {
+  border: none;
+  background-color: transparent;
+
+  cursor: pointer;
+}
+
+.modal {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.edit-description {
+  resize: none;
+  height: 100px;
+  width: 200px;
+}
+
+.btns-modal {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-save {
+  border: none;
+  background-color: rgba(28, 100, 255, 0.927);
+  color: #fff;
+  width: 70px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  border: none;
+  background-color: rgba(255, 0, 0, 0.927);
+  color: #fff;
+  padding: 5px 10px;
+  cursor: pointer;
+  width: 70px;
+}

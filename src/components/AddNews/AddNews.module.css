@@ -1,0 +1,50 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  color: #000;
+}
+
+.description_area {
+  resize: none;
+  height: 100px;
+  width: 200px;
+}
+
+.btn-container {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.btn-add,
+.btn-cancel {
+  border: none;
+  background-color: #fff;
+  color: #000;
+  border-radius: 5px;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-add {
+  background-color: #42c498;
+  color: #fff;
+  border: 1px solid #08151b;
+}
+
+.btn-cancel {
+  background-color: #fff;
+  color: #000;
+  border: 1px solid #000;
+}
+
+.btn-add:hover,
+.btn-cancel:hover {
+  background-color: #000;
+  color: #fff;
+}
